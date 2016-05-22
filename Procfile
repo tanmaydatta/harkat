@@ -1,0 +1,1 @@
+web: gunicorn harkat.wsgi --log-file -
