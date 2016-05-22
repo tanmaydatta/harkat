@@ -35,6 +35,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'api',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -75,8 +76,15 @@ WSGI_APPLICATION = 'harkat.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        # 'OPTIONS': {
+        #         'options': '-c search_path=pluss'
+        #     },
+        'NAME': 'd83sil53r0r6vu',
+        'USER': 'tjzixpnnwpqsix',
+        'PASSWORD': 'apZGz4jVP85RUIVDqaOAh8ba6t',
+        'HOST': 'ec2-50-19-239-232.compute-1.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
