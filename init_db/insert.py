@@ -3,7 +3,7 @@ import json
 from api.models import *
 
 
-f=open("states.json")
+f=open("init_db/states.json")
 x=f.read()
 x=json.loads(x)
 states = x
