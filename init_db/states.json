@@ -1,0 +1,282 @@
+[
+  {
+    "_geoloc": {
+      "lat": 11.7400867,
+      "lng": 92.6586401
+    },
+    "place_id": "ChIJ8w9lKw-gZDARLMv8SFYFgM4",
+    "name": "Andaman and Nicobar"
+  },
+  {
+    "_geoloc": {
+      "lat": 15.9128998,
+      "lng": 79.7399875
+    },
+    "place_id": "ChIJf9STrvhGNToRg82tlb670TM",
+    "name": "Andhra Pradesh"
+  },
+  {
+    "_geoloc": {
+      "lat": 28.2179994,
+      "lng": 94.7277528
+    },
+    "place_id": "ChIJJ3IcakZDQDcR8pKaL1VutXY",
+    "name": "Arunachal Pradesh"
+  },
+  {
+    "_geoloc": {
+      "lat": 26.2006043,
+      "lng": 92.9375739
+    },
+    "place_id": "ChIJYy0xTMkWRTcR-xlnc7tzGtE",
+    "name": "Assam"
+  },
+  {
+    "_geoloc": {
+      "lat": 25.0960742,
+      "lng": 85.31311939999999
+    },
+    "place_id": "ChIJA2m78ERY7TkRJeO6G-0_rVc",
+    "name": "Bihar"
+  },
+  {
+    "_geoloc": {
+      "lat": 30.7333148,
+      "lng": 76.7794179
+    },
+    "place_id": "ChIJa8lu5gvtDzkR_hlzUvln_6U",
+    "name": "Chandigarh"
+  },
+  {
+    "_geoloc": {
+      "lat": 21.2786567,
+      "lng": 81.8661442
+    },
+    "place_id": "ChIJrYt6xhYfJjoRlZ0X-xL0I1w",
+    "name": "Chhattisgarh"
+  },
+  {
+    "_geoloc": {
+      "lat": 20.1808672,
+      "lng": 73.0169135
+    },
+    "place_id": "ChIJ1T5MSm3L4DsRUBje1IYcGCU",
+    "name": "Dadra and Nagar Haveli"
+  },
+  {
+    "_geoloc": {
+      "lat": 20.428283,
+      "lng": 72.8397317
+    },
+    "place_id": "ChIJoQA7ipDa4DsRQnK0uUpAqAA",
+    "name": "Daman and Diu"
+  },
+  {
+    "_geoloc": {
+      "lat": 28.6139391,
+      "lng": 77.2090212
+    },
+    "place_id": "ChIJLbZ-NFv9DDkRzk0gTkm3wlI",
+    "name": "Delhi"
+  },
+  {
+    "_geoloc": {
+      "lat": 15.2993265,
+      "lng": 74.12399599999999
+    },
+    "place_id": "ChIJQbc2YxC6vzsRkkDzYv-H-Oo",
+    "name": "Goa"
+  },
+  {
+    "_geoloc": {
+      "lat": 22.258652,
+      "lng": 71.1923805
+    },
+    "place_id": "ChIJlfcOXx8FWTkRLlJU7YfYG4Y",
+    "name": "Gujarat"
+  },
+  {
+    "_geoloc": {
+      "lat": 29.0587757,
+      "lng": 76.085601
+    },
+    "place_id": "ChIJC0BwhguwDTkRQ8GmqrSqLnM",
+    "name": "Haryana"
+  },
+  {
+    "_geoloc": {
+      "lat": 31.1048294,
+      "lng": 77.17339009999999
+    },
+    "place_id": "ChIJ9wH5Z8NTBDkRJXdLVsUE_nw",
+    "name": "Himachal Pradesh"
+  },
+  {
+    "_geoloc": {
+      "lat": 33.778175,
+      "lng": 76.57617139999999
+    },
+    "place_id": "ChIJnaj_mSQJ4TgR8eeXRm16VgY",
+    "name": "Jammu and Kashmir"
+  },
+  {
+    "_geoloc": {
+      "lat": 23.6101808,
+      "lng": 85.2799354
+    },
+    "place_id": "ChIJVwhI34YjizkRBJDi7gm4xWI",
+    "name": "Jharkhand"
+  },
+  {
+    "_geoloc": {
+      "lat": 15.3172775,
+      "lng": 75.7138884
+    },
+    "place_id": "ChIJj0i_N0xaozsR1Xx10YzS8UE",
+    "name": "Karnataka"
+  },
+  {
+    "_geoloc": {
+      "lat": 10.8505159,
+      "lng": 76.2710833
+    },
+    "place_id": "ChIJW_Wc1P8SCDsRmXw47fuQvWQ",
+    "name": "Kerala"
+  },
+  {
+    "_geoloc": {
+      "lat": 8.2954408,
+      "lng": 73.0489728
+    },
+    "place_id": "ChIJPZfkymXNnzsRqukshBZ0vRc",
+    "name": "Lakshadweep"
+  },
+  {
+    "_geoloc": {
+      "lat": 22.9734229,
+      "lng": 78.6568942
+    },
+    "place_id": "ChIJBepa04FzZjkRHhxwTg1rEOA",
+    "name": "Madhya Pradesh"
+  },
+  {
+    "_geoloc": {
+      "lat": 19.7514798,
+      "lng": 75.7138884
+    },
+    "place_id": "ChIJ-dacnB7EzzsRtk_gS5IiLxs",
+    "name": "Maharashtra"
+  },
+  {
+    "_geoloc": {
+      "lat": 24.6637173,
+      "lng": 93.90626879999999
+    },
+    "place_id": "ChIJ25Bj8VsmSTcRrymo4BppwYw",
+    "name": "Manipur"
+  },
+  {
+    "_geoloc": {
+      "lat": 25.4670308,
+      "lng": 91.366216
+    },
+    "place_id": "ChIJfyC9NI9-UDcRbm1JfxH2Xg8",
+    "name": "Meghalaya"
+  },
+  {
+    "_geoloc": {
+      "lat": 23.164543,
+      "lng": 92.9375739
+    },
+    "place_id": "ChIJ9zY_n9ELTTcRdOTVo5Im9rE",
+    "name": "Mizoram"
+  },
+  {
+    "_geoloc": {
+      "lat": 26.1584354,
+      "lng": 94.5624426
+    },
+    "place_id": "ChIJMT3GNAkhRjcR_T7MiTrzLR8",
+    "name": "Nagaland"
+  },
+  {
+    "_geoloc": {
+      "lat": 20.9516658,
+      "lng": 85.0985236
+    },
+    "place_id": "ChIJ_Tuv6exqIjoRH6jOqcolNhM",
+    "name": "Orissa"
+  },
+  {
+    "_geoloc": {
+      "lat": 11.9138598,
+      "lng": 79.8144722
+    },
+    "place_id": "ChIJz89JjqthUzoRTrDw0ibTa8w",
+    "name": "Puducherry"
+  },
+  {
+    "_geoloc": {
+      "lat": 31.1471305,
+      "lng": 75.34121789999999
+    },
+    "place_id": "ChIJVXOeVqpkGTkRYYijAzEmvY8",
+    "name": "Punjab"
+  },
+  {
+    "_geoloc": {
+      "lat": 27.0238036,
+      "lng": 74.21793260000001
+    },
+    "place_id": "ChIJNw7j9_o-ajkR5YjABkWbK7U",
+    "name": "Rajasthan"
+  },
+  {
+    "_geoloc": {
+      "lat": 27.5329718,
+      "lng": 88.5122178
+    },
+    "place_id": "ChIJ--oFWGql5jkRBFqbw1e4xKQ",
+    "name": "Sikkim"
+  },
+  {
+    "_geoloc": {
+      "lat": 11.1271225,
+      "lng": 78.6568942
+    },
+    "place_id": "ChIJM5YYsYLFADsR8GEzRsx1lFU",
+    "name": "Tamil Nadu"
+  },
+  {
+    "_geoloc": {
+      "lat": 23.9408482,
+      "lng": 91.9881527
+    },
+    "place_id": "ChIJhaLB9ma1UzcRdP8_Red63RQ",
+    "name": "Tripura"
+  },
+  {
+    "_geoloc": {
+      "lat": 26.8467088,
+      "lng": 80.9461592
+    },
+    "place_id": "ChIJ0wlKe59OmTkRnSQXNm1HpfY",
+    "name": "Uttar Pradesh"
+  },
+  {
+    "_geoloc": {
+      "lat": 30.066753,
+      "lng": 79.01929969999999
+    },
+    "place_id": "ChIJCZwnAsLcCTkRBcCcaGM7xAc",
+    "name": "Uttaranchal"
+  },
+  {
+    "_geoloc": {
+      "lat": 22.9867569,
+      "lng": 87.8549755
+    },
+    "place_id": "ChIJh-iXE_8W-jkRCqLnwz06VHE",
+    "name": "West Bengal"
+  }
+]
