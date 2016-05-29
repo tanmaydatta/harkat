@@ -5,7 +5,7 @@ from django.http import *
 from django.template.loader import get_template
 from django.views.decorators.csrf import *
 # from auth import *
-from models import *
+from .models import *
 import json
 
 # Create your views here.
