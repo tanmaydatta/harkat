@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 
 import os
 import dj_database_url
+# import django_redis
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -35,7 +36,10 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'api',
+    'auth_user',
+    # 'django_redis',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -71,6 +75,16 @@ TEMPLATES = (
 WSGI_APPLICATION = 'harkat.wsgi.application'
 
 
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://pub-redis-18156.us-east-1-4.2.ec2.garantiadata.com:18156",
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+        }
+    }
+}
+
 # Database
 # https://docs.djangoproject.com/en/1.9/ref/settings/#databases
 
@@ -88,12 +102,28 @@ DATABASES = {
     }
 }
 
+SECURE = None
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         # 'OPTIONS': {
+#         #         'options': '-c search_path=pluss'
+#         #     },
+#         'NAME': 'harkat',
+#         'USER': 'tanmay',
+#         'PASSWORD': '123',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
+
 AUTH_PASSWORD_VALIDATORS = (
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
-    },
-    {
         'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'OPTIONS': {
+            'min_length': 8,
+        }
     },
     {
         'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
@@ -136,3 +166,6 @@ STATICFILES_DIRS = [
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+
+PLACES_KEY = "AIzaSyAoJP6d5dV5WVCGSTuku4fvT7af1e3D4o"
+GEOCODING_KEY = "AIzaSyAmHbz-EvneAAG67FdFZ9JCIVmX1jZzwbk"
